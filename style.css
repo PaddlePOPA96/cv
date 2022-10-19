@@ -93,6 +93,26 @@ header{
     text-align: center;
 }
 
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.psd {width: 90%; background-color: #04AA6D;} /* Green */
+.ai {width: 80%; background-color: #2196F3;} /* Blue */
+.word {width: 65%; background-color: #f44336;} /* Red */
+.excel {width: 60%; background-color: #808080;} /* Dark Grey */
+
 .story{
     grid-area: story;
 }
